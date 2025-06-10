@@ -1,0 +1,248 @@
+/*body{
+  background-color: #E6FFFD;
+}
+.home-container{
+  display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    gap: 20px;
+}
+.home-container p {
+  font-size: 1.5rem;
+  color: #333;
+}
+.header-links .nav-links{
+  display: flex;
+  gap: 30px;
+  float: right;
+  list-style: none;
+  padding-left: 550px;
+}
+.nav-links li {
+  display: inline;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: medium;
+gap: 15px;
+
+  
+}
+.header-links .nav-links a:hover  {
+  color: #007BFF;
+  
+}
+.header-links .nav-links > li {
+
+ 
+}
+/*.header-links .nav-links > li:hover {
+  border-top-left-radius: 5px solid white;
+  background-color: white;
+  
+  z-index: 0;
+}
+.nav-links > li:hover .dropdown,
+.dropdown:hover {
+    display: block; 
+}
+.header-links .nav-links a.active {
+  color: #007BFF;
+  font-weight: bold;
+}
+.header-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+/* .dropdown{
+  display: block;
+  position: absolute;
+  align-items: center;
+  
+}
+.dropdown{
+  z-index: 1;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 15px;
+  display: none;
+}
+.dropdown .dropdown-item {
+  margin-top: 5px;
+  color: #333;
+  text-decoration: none;
+  padding: 5px 10px;
+  display: block;
+}
+/*.dropdown-icon{
+  width: 35px;
+  height: 35px;
+  margin-right: 15px;
+}
+
+.dropdown .dropdown-description {
+  display: block;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 5px;
+ display: block;
+}
+.header-buttons .login-button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 10px 10px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 5rem;
+  height: 2rem;
+}
+.header-buttons .login-button:hover {
+  background-color: #0056b3;
+}*/
+/* General Styles */
+body {
+    background-color: #E6FFFD;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for Home Section */
+.home-container {
+    display: flex;
+    align-items: center;
+    padding: 10px 50px;
+    gap: 0px;
+}
+
+.home-container p {
+    font-size: 1.0rem;
+    color: #333;
+    margin-left: 10px;
+}
+
+/* Header Links */
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Navigation Bar */
+.header-links .nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding-left: 550px;
+}
+
+.nav-links li {
+    position: relative;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: medium;
+    padding: 10px 15px;
+}
+
+.header-links .nav-links a:hover {
+    color: #007BFF;
+}
+
+/* Active Link */
+.header-links .nav-links a.active {
+    color: #007BFF;
+    font-weight: bold;
+}
+
+/* Dropdown Menu */
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    min-width: 200px;
+    z-index: 1000;
+}
+
+.dropdown li {
+    
+    white-space: nowrap;
+    display: block;
+}
+
+.dropdown a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Dropdown Description */
+.dropdown .dropdown-description {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 5px;
+    display: block;
+}
+
+/* Dropdown Visibility on Hover */
+.nav-links > li:hover .dropdown,
+.dropdown:hover {
+    display: block;
+}
+
+/* Header Buttons */
+.header-buttons .login-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-left: 35px;
+    width: 5rem;
+    height: 2rem;
+}
+
+.header-buttons .login-button:hover {
+    background-color: #0056b3;
+}
+.landing-sect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    height: 100vh;
+    background-color: #E6FFFD;
+}
+.btn {
+    background-color: #CB0404;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.btn:hover{
+    background-color: #BB3E00;
+}
