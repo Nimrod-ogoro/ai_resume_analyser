@@ -1,6 +1,7 @@
 import React from 'react'
 import { HiOutlineDocumentSearch } from "react-icons/hi";
 
+
 const Header = () => {
   return (
     <div className='home-container'>
