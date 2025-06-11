@@ -7,6 +7,8 @@ import { BsRobot } from "react-icons/bs";
 import { VscFeedback } from "react-icons/vsc";
 import { FaDownload } from "react-icons/fa6";
 import { GrAnalytics } from "react-icons/gr";
+import FAQs from '../components/faqs';
+import Newsletter from '../components/newsletter';
 
 const Home = () => {
     const features = [
@@ -74,15 +76,16 @@ const Home = () => {
             feedback: "I appreciate the resume analysis feature. It helped me optimize my resume for better job matches.",
         }
     ]
+  
   return (
     <>
-    <div className='home-container'>
-         <Header/>
-    </div>
+    <section className='header-section'>
+      <Header />
+    </section>
     <div className='landing-sect'>
        <h1><em>Professional Resume & Cover Letter<br/> with the ultimate resume builder</em></h1>
        <p>Get your resume and cover letter ready in minutes with our AI-powered resume builder. </p>
-       <button className='btn btn-primary'>Get Started</button>
+       <button className='btn btn-primary' id="button" >Get Started</button>
     </div>
     <div className='about-container'>
         <img src="/img/resume.jpg" alt="resume pic" className='resume-illustration' />
@@ -106,6 +109,9 @@ const Home = () => {
             ))}
         </div>
     </div>
+    <div>
+    <FAQs/>
+        </div>
   <div className='testimonials-section'>
       <h2> Client Testimonials</h2>
       <div className='testimonials-wrapper'>
@@ -117,6 +123,9 @@ const Home = () => {
           </div>
         ))}
       </div>
+    </div>
+    <div>
+        <Newsletter/>
     </div>
     <div>
         <Footer/>
