@@ -10,6 +10,7 @@ import CoverLetterWriter from './pages/CoverLetter'
 import Login from './pages/Login'
 import Signup from './pages/Signup'
 import Dashboard from './dashboard/Dashboard'
+import SubscriptionPage from './pages/subscription'
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
         <Route path="/CoverLetter" element={<CoverLetterWriter />} />
         <Route path="/Login" element={<Login />} />
         <Route path="/Signup"  element={<Signup />} />
+        <Route path="/subscription" element={<SubscriptionPage />} />
       </Routes>
     </Router>
     </>
